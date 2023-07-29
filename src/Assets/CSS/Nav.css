@@ -1,0 +1,13 @@
+.navElement{
+    color: white;
+    display: flex;
+    gap: 5px ;
+    align-items: center;
+    font-weight: 500 ;
+    font-size: 14px;
+    transition: all 500ms ease-in;
+}
+
+.navElement:hover{
+    font-weight: bold;
+}
