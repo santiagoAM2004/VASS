@@ -10,7 +10,7 @@ function Header() {
   });
 
   return (
-    <div className="flex justify-between items-center  pr-48 w-full h-[80px] bg-transparent fixed z-30 ">
+    <div className="flex justify-between items-center  pr-[180px] w-full h-[80px] bg-transparent fixed z-30 ">
       <LogoMenu padding="pl-7"/>
       <NavMenu />
       <div

@@ -3,11 +3,24 @@
     display: flex;
     gap: 5px ;
     align-items: center;
-    font-weight: 500 ;
-    font-size: 14px;
     transition: all 500ms ease-in;
 }
 
 .navElement:hover{
     font-weight: bold;
+}
+
+.barra{
+    width: 100%; 
+}
+
+.abiertoNav{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    top: 80px;
+    z-index: 100;
+    overflow: scroll;
+    display: block;
 }

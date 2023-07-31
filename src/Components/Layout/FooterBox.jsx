@@ -10,7 +10,7 @@ import LogoMenu from "../UI/LogoMenu";
 
 function FooterBox() {
   return (
-    <footer className="bg-[#151515] w-full flex flex-col pt-[55px] border-t-[1px] border-white divide-y-[1px]">
+    <footer className="bg-[#151515] w-full flex flex-col pt-[55px] border-t-[1px] border-b-[1px] border-white divide-y-[1px]">
       <div className="flex w-[90%] justify-between gap-[50px] pl-[180px] mb-14">
         <div className="w-[15%]  text-left  flex flex-col gap-5">
           <h2 className="text-white font-bold text-[13px]">SOMOS VASS</h2>
@@ -91,7 +91,7 @@ function FooterBox() {
           </ul>
         </div>
       </div>
-      <div className="w-full h-[150px] flex justify-start items-center pl-[180px] gap-56 border-white border-b-[10px]">
+      <div className="w-full h-[150px] flex justify-start items-center pl-[180px] gap-56 border-b`-2 border-white">
         <div>
           <p className="text-white text-[12px]">Copyright © 2023 Todos los derechos reservados</p>
         </div>
